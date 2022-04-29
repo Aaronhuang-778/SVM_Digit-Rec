@@ -12,7 +12,7 @@
 
 ​	首先为了更好的观察数据集特征，我将下载好的train和test的image 无符号二进制文件进行处理，生成了60000 + 10000张图片。这里要吐槽一下sklearn的svm默认只能调用CPU的单核，所以训练速度很慢。
 
-![2](G:\Aaron\机器学习\ML算法实践\机器学习工程基础\pic\2.png)
+![2](https://github.com/Aaronhuang-778/SVM_Digit-Rec/blob/main/pic/2.png)
 
 1.  SVM(RBF)模型，惩罚系数C固定为1——svm_v1.model
 
@@ -75,4 +75,4 @@ svm_test1(model_path, test_img_path)
 
 以下数据可以自己生成，dataset前往MNIST官方自行下载
 
-![3](G:\Aaron\机器学习\ML算法实践\机器学习工程基础\pic\3.png)
+![3](https://github.com/Aaronhuang-778/SVM_Digit-Rec/blob/main/pic/3.png)
